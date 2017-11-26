@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="margin_6">6dp</dimen>
+    <dimen name="margin_30">30dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_12">12dp</dimen>
+    <dimen name="margin_40">40dp</dimen>
+    <dimen name="margin_60">60dp</dimen>
+    <dimen name="margin_80">80dp</dimen>
+
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_22">22sp</dimen>
+    <dimen name="text_size_24">24sp</dimen>
+    <dimen name="text_size_28">28sp</dimen>
+    <dimen name="text_size_36">36sp</dimen>
+
+    <dimen name="line_spacing_8">8sp</dimen>
+    <dimen name="line_spacing_4">4sp</dimen>
+
+    <dimen name="logo_dimension_60">60dp</dimen>
+    <dimen name="logo_dimension_50">50dp</dimen>
+    <dimen name="logo_dimension_80">80dp</dimen>
+
+    <dimen name="intro_apply_now_250">250dp</dimen>
+    <dimen name="intro_apply_now_350">350dp</dimen>
+    <dimen name="intro_apply_now_400">400dp</dimen>
+
+    <dimen name="fading_edge_30">30dp</dimen>
+    <dimen name="corner_radius_10">10dp</dimen>
+    <dimen name="card_elevation_16">16dp</dimen>
+    <dimen name="card_textview_width">200dp</dimen>
+
+    <dimen name="button_height_52">52dp</dimen>
+
+
+</resources>

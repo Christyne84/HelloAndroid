@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    tools:context="com.example.android.helloandroid.MainActivity"
+    tools:ignore="ContentDescription">
+
+    <RelativeLayout
+        android:layout_width="@dimen/intro_apply_now_400"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/intro_apply_now_400"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:adjustViewBounds="true"
+            android:alpha="0.8"
+            android:contentDescription="@string/photo"
+            android:scaleType="centerCrop"
+            android:src="@drawable/business_image_copy" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/SelfDrivingCar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_thin"
+                android:text="@string/self_driving_car"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size_28"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/nanodegreeProgram"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_vertical_margin"
+                android:fontFamily="@font/roboto_thin"
+                android:text="@string/nanodegreeProgram"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size_24"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_height_52"
+                android:fontFamily="@font/roboto_light"
+                android:onClick="openPageSelfDrivingCourse"
+                android:text="@string/apply_now_portrait"
+                android:textSize="@dimen/text_size_24" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/margin_40"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_light"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:text="@string/course_why_text_label"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/Black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_light"
+            android:inputType="none"
+            android:lineSpacingExtra="@dimen/line_spacing_8"
+
+            android:singleLine="false"
+            android:text="@string/course_why_text_description"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/LGrey" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin">
+
+
+            <TextView
+                android:id="@+id/time_info_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:fontFamily="@font/roboto_light"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/time"
+                android:textAllCaps="true"
+                android:textColor="@color/LGrey"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/open_class_info_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:fontFamily="@font/roboto_light"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/classrom_opens"
+                android:textAllCaps="true"
+                android:textColor="@color/LGrey"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/time_info_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/time_info_label"
+                android:fontFamily="@font/roboto_light"
+                android:lineSpacingExtra="8sp"
+
+                android:text="@string/term"
+                android:textColor="@color/Black"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/open_class_info_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/open_class_info_label"
+                android:layout_alignStart="@+id/open_class_info_label"
+                android:layout_below="@+id/open_class_info_label"
+                android:fontFamily="@font/roboto_light"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/date"
+                android:textColor="@color/Black"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/prerequisites_info_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/textView"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/textView"
+                android:fontFamily="@font/roboto_light"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/prerequisites"
+                android:textAllCaps="true"
+                android:textColor="@color/LGrey"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/prerequisites_info_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/prerequisites_info_label"
+                android:layout_alignStart="@+id/prerequisites_info_label"
+                android:layout_below="@+id/prerequisites_info_label"
+                android:fontFamily="@font/roboto_light"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/prerequisite_text"
+                android:textColor="@color/Black"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/groundbreaking_curriculum"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/admission"
+                android:layout_alignStart="@+id/admission"
+                android:layout_below="@+id/admission"
+                android:layout_marginTop="41dp"
+                android:drawableLeft="@drawable/download"
+                android:gravity="left"
+                android:text="@string/groundbreaking_curriculum"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/LGrey" />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/groundbreaking_curriculum"
+                android:layout_alignBottom="@+id/groundbreaking_curriculum"
+                android:layout_alignLeft="@+id/minimal_experience"
+                android:layout_alignStart="@+id/minimal_experience"
+                android:drawableLeft="@drawable/download4"
+                android:gravity="left"
+                android:text="@string/mentorship_project_reviews_community"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/LGrey" />
+
+            <TextView
+                android:id="@+id/minimal_experience"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/admission"
+                android:layout_alignBottom="@+id/admission"
+                android:layout_toEndOf="@+id/prerequisites_info_label"
+                android:layout_toRightOf="@+id/prerequisites_info_label"
+                android:drawableLeft="@drawable/download3"
+                android:gravity="start"
+                android:text="@string/minimal_programming_experience_required"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/LGrey" />
+
+            <TextView
+                android:id="@+id/admission"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/time_info_text"
+                android:layout_marginLeft="23dp"
+                android:layout_marginStart="23dp"
+                android:layout_marginTop="51dp"
+                android:layout_toEndOf="@+id/time_info_label"
+                android:layout_toRightOf="@+id/time_info_label"
+                android:drawableLeft="@drawable/download2"
+                android:gravity="left"
+                android:text="@string/guaranteed_admission"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/LGrey" />
+
+            <TextView
+                android:id="@+id/card_text"
+                android:layout_width="@dimen/card_textview_width"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/imageView2"
+                android:layout_below="@id/admission"
+                android:drawablePadding="@dimen/activity_vertical_margin"
+                android:drawableTop="@drawable/ic_launcher"
+                android:fontFamily="@font/roboto_light"
+                android:gravity="center"
+                android:lineSpacingExtra="@dimen/line_spacing_4"
+                android:paddingEnd="@dimen/activity_vertical_margin"
+                android:paddingRight="@dimen/activity_vertical_margin"
+                android:text="@string/card_text"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorPrimary" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="42dp"
+                android:layout_marginStart="42dp"
+                android:layout_toEndOf="@+id/card_text"
+                android:layout_toRightOf="@+id/card_text"
+                android:scaleType="center"
+                android:src="@drawable/hands_free_driving2" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/card_text"
+                android:layout_toEndOf="@+id/groundbreaking_curriculum"
+                android:layout_toRightOf="@+id/groundbreaking_curriculum"
+                android:drawableTop="@drawable/ic_video_icon"
+                android:fontFamily="@font/roboto_light"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/Black" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/imageView2"
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/activity_vertical_margin"
+                android:paddingStart="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:layout_width="@dimen/logo_dimension_60"
+                    android:layout_height="@dimen/logo_dimension_60"
+                    android:layout_gravity="center"
+                    android:autoLink="web"
+                    android:onClick="openPageUdacityHomePage"
+                    android:paddingBottom="@dimen/margin_30"
+                    android:src="@drawable/logo" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/roboto_light"
+                    android:text="@string/business_name"
+                    android:textColor="@color/Black"
+                    android:textSize="@dimen/text_size_18"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableLeft="@drawable/marker20pink"
+                    android:drawablePadding="@dimen/activity_vertical_margin"
+                    android:drawableStart="@drawable/marker20pink"
+                    android:fontFamily="@font/roboto_light"
+                    android:gravity="center"
+                    android:paddingBottom="@dimen/activity_vertical_margin"
+                    android:paddingTop="@dimen/activity_vertical_margin"
+                    android:text="@string/address"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/text_size_18" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableLeft="@drawable/phone20green"
+                    android:drawablePadding="@dimen/activity_vertical_margin"
+                    android:drawableStart="@drawable/phone20green"
+                    android:fontFamily="@font/roboto_light"
+                    android:text="@string/telephone"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/text_size_18" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+

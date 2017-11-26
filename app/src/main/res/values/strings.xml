@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">HelloAndroid</string>
+    <string name="business_name">Udacity</string>
+    <string name="telephone">650-555-5555</string>
+    <string name="address">2465 Latham St \nMountain View, CA 94043</string>
+    <string name="photo">Photo</string>
+    <string name="self_driving_car">Intro to Self-Driving Cars</string>
+    <string name="nanodegreeProgram">Nanodegree Program</string>
+    <string name="apply_now_land">Apply now</string>
+    <string name="apply_now_portrait">Apply now</string>
+    <string name="course_why_text_label">Why Take This Nanodegree Program?</string>
+    <string name="course_why_text_description">With just minimal programming experience, you can learn the essentials of building a self-driving car. You’ll discover how to solve problems in both Python and C++ as you explore what makes self-driving cars possible. Plus, graduates earn guaranteed admission into our career-ready Self-Driving Car Engineer Nanodegree program!</string>
+    <string name="card_text">Researchers estimate driverless cars will save 10 million lives per decade!</string>
+    <string name="deadline">Enroll by December 08, 2017</string>
+    <string name="time">Time</string>
+    <string name="term">4-month term</string>
+    <string name="classrom_opens">Classrom opens</string>
+    <string name="date">December 05, 2017</string>
+    <string name="prerequisites">Prerequisites</string>
+    <string name="prerequisite_text"><![CDATA[Programming & Mathematics]]></string>
+    <string name="groundbreaking_curriculum">Groundbreaking Curriculum</string>
+    <string name="mentorship_project_reviews_community">Mentorship, Project Reviews, Community</string>
+    <string name="minimal_programming_experience_required">Minimal programming experience required</string>
+    <string name="guaranteed_admission">Guaranteed Admission</string>
+    <string name="time_text_2">Study 10 hrs/week and complete in 4 mo.</string>
+    <string name="open_class_info_text2">Classroom opens in 12 days.</string>
+
+
+</resources>
